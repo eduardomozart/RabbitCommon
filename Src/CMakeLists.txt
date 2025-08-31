@@ -438,6 +438,7 @@ ADD_TARGET(NAME ${PROJECT_NAME}
 
 install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/../cmake/RabbitCommonUtils.cmake
         ${CMAKE_CURRENT_SOURCE_DIR}/../cmake/Translations.cmake
+        ${CMAKE_CURRENT_SOURCE_DIR}/../cmake/macos.cmake
         ${CMAKE_CURRENT_SOURCE_DIR}/../cmake/RabbitCommon.pc.in
     DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/RabbitCommon
         COMPONENT Development

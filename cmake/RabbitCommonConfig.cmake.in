@@ -11,7 +11,7 @@ set(WITH_GUI @WITH_GUI@)
 include("${CMAKE_CURRENT_LIST_DIR}/RabbitCommonTargets.cmake")
 include("${CMAKE_CURRENT_LIST_DIR}/RabbitCommonUtils.cmake")
 include("${CMAKE_CURRENT_LIST_DIR}/Translations.cmake")
-
+include("${CMAKE_CURRENT_LIST_DIR}/macos.cmake")
 if((NOT (LINUX OR UNIX)) OR ANDROID)
     if(NOT PROJECT_NAME)
         message(FATAL_ERROR "Move the find_package(RabbitCommon) to the back of the project(...)")
